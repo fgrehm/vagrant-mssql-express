@@ -1,6 +1,8 @@
 # http://stackoverflow.com/a/9949105
 $ErrorActionPreference = "Stop"
 
+echo "Configuring TCP port"
+
 # http://technet.microsoft.com/en-us/library/dd206997(v=sql.105).aspx
 # Load assemblies
 [reflection.assembly]::LoadWithPartialName("Microsoft.SqlServer.Smo")
@@ -15,5 +17,9 @@ $Tcp = $wmi.GetSmoObject($uri)
 $wmi.GetSmoObject($uri + "/IPAddress[@Name='IPAll']").IPAddressProperties[1].Value="1433"
 $Tcp.alter()
 
+echo "DONE!"
+
+echo "Restarting service..."
 # Restart service so that configurations are applied
 restart-service -f "SQL Server (SQLEXPRESS)"
+echo "DONE!"
