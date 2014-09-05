@@ -13,4 +13,4 @@ $wmi.GetSmoObject($uri + "/IPAddress[@Name='IPAll']").IPAddressProperties[1].Val
 $Tcp.alter()
 
 # Restart service so that configurations are applied
-restart-service "SQL Server (SQLEXPRESS)"
+restart-service -f "SQL Server (SQLEXPRESS)"
