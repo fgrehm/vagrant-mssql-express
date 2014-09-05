@@ -16,7 +16,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     vb.gui = $enable_gui == '1'
   end
 
-  config.vm.provision :shell, path: "scripts/provision.ps1"
+  config.vm.provision :shell, path: "scripts/install-dot-net.ps1"
   config.vm.provision :shell, path: "scripts/install-sql-server.cmd"
   config.vm.provision :shell, path: "scripts/configure-sql-port.ps1"
 end
