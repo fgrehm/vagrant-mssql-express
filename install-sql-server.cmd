@@ -7,6 +7,3 @@ echo Done!
 echo Disabling firewall
 netsh advfirewall set allprofiles state off
 echo DONE!
-
-:: Configure Windows Server 2008/R2 auditing policy
-::auditpol /set /subcategory:"application generated" /success:enable /failure:enable
