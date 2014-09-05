@@ -1,3 +1,6 @@
+# http://stackoverflow.com/a/9949105
+$ErrorActionPreference = "Stop"
+
 # http://technet.microsoft.com/en-us/library/dd206997(v=sql.105).aspx
 # Load assemblies
 [reflection.assembly]::LoadWithPartialName("Microsoft.SqlServer.Smo")
