@@ -18,6 +18,8 @@ A Windows Server 2008 R2 VM with SQL Server Express 2008 R2 SP2 powered by Vagra
 * The box has been created with [packer.io](http://www.packer.io/) using the
   templates made available [here](https://github.com/opentable/packer-images).
 
+More information can be found on the [box page at Vagrant Cloud](https://vagrantcloud.com/opentable/boxes/win-2008r2-standard-amd64-nocm).
+
 ## Usage
 
 ```sh
