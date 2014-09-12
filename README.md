@@ -61,7 +61,7 @@ new databases, you can use the [`vagrant rdp` command](http://docs.vagrantup.com
 and log in with the `vagrant` user and password.
 
 For the `vagrant rdp` command to work on Ubuntu, you'll need to `apt-get install rdesktop`
-first. I'm not sure what are the dependencies onon Macs since I don't own one but
+first. I'm not sure what are the dependencies on Macs since I don't own one but
 if you do [please let me know](https://github.com/fgrehm/vagrant-mssql-express/issues/new)!
 
 ## Sponsor
