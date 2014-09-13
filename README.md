@@ -56,6 +56,8 @@ development:
 
 _More information on https://github.com/rails-sqlserver/activerecord-sqlserver-adapter/wiki/Using-TinyTDS_
 
+An example [Sinatra](http://www.sinatrarb.com) app can be found on [sinatra-app](sinatra-app).
+
 ### Connecting to the VM using [Remote Desktop](https://en.wikipedia.org/wiki/Remote_Desktop_Protocol) connections
 
 If you need to perform administrative tasks like importing a DB dump or creating
