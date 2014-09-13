@@ -1,0 +1,6 @@
+source "https://rubygems.org"
+
+gem 'sinatra-activerecord'
+gem 'tiny_tds'
+gem 'activerecord-sqlserver-adapter'
+gem 'rake'
