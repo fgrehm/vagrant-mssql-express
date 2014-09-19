@@ -68,6 +68,11 @@ For the `vagrant rdp` command to work on Ubuntu, you'll need to `apt-get install
 first. I'm not sure what are the dependencies on Macs since I don't own one but
 if you do [please let me know](https://github.com/fgrehm/vagrant-mssql-express/issues/new)!
 
+## More information
+
+If you want to know more about how the provisioning process work, check out
+[this blog post](http://helabs.com.br/blog/2014/09/19/mssql-on-vagrant/)
+
 ## Sponsor
 
 This project was made possible thanks to [HE:labs](http://helabs.com.br/en)
