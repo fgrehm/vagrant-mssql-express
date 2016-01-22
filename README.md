@@ -1,6 +1,6 @@
 # vagrant-mssql-express
 
-A Windows Server 2008 R2 VM with SQL Server Express 2008 R2 SP2 powered by Vagrant.
+A Windows Server 2012 VM with SQL Server Express 2012 powered by Vagrant.
 
 ## Requirements
 
@@ -18,7 +18,7 @@ A Windows Server 2008 R2 VM with SQL Server Express 2008 R2 SP2 powered by Vagra
 * The box has been created with [packer.io](http://www.packer.io/) using the
   templates made available [here](https://github.com/opentable/packer-images).
 
-More information can be found on the [box page at Vagrant Cloud](https://vagrantcloud.com/opentable/boxes/win-2008r2-standard-amd64-nocm).
+More information can be found on the [box page at Vagrant Cloud](https://atlas.hashicorp.com/opentable/boxes/win-2012r2-standard-amd64-nocm).
 
 ## Usage
 
