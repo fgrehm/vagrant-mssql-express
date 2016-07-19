@@ -4,7 +4,7 @@ A Windows Server 2008 R2 VM with SQL Server Express 2008 R2 SP2 powered by Vagra
 
 ## :warning: Heads up! :warning:
 
-This was just an experiment on how to set things up for a project I worked on the past, I'm not planning to keep this project up to date with latest Vagrant / SQL Server updates.
+This was just an experiment on how to set things up for a project I worked on the past, I'm not planning to keep this project up to date with latest Vagrant / SQL Server updates or making additional improvements to it.
 
 ## Requirements
 
