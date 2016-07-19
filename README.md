@@ -2,6 +2,10 @@
 
 A Windows Server 2008 R2 VM with SQL Server Express 2008 R2 SP2 powered by Vagrant.
 
+## :warning: Heads up! :warning:
+
+This was just an experiment on how to set things up for a project I worked on the past, I'm not planning to keep this project up to date with latest Vagrant / SQL Server updates.
+
 ## Requirements
 
 * Vagrant 1.6+ (tested on 1.6.3)
